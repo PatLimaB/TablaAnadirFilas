@@ -1,0 +1,68 @@
+/* Estilo para el cuerpo del documento */
+body {
+    background-color: #f5f5e1; /* Color de fondo crema */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar contenido horizontalmente */
+    height: 100vh; /* Establecer el alto del cuerpo al 100% del viewport */
+}
+
+/* Estilo para el contenedor principal */
+div {
+    background-color: #d9ead3; /* Color de fondo verde pastel */
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra ligera */
+    margin-top: 80px;
+}
+
+/* Estilo para el título */
+.tituloTabla {
+    color: #333; /* Color de texto oscuro */
+    text-align: center;
+}
+
+/* Estilo para el botón */
+#boton {
+    background-color: #afd5aa; /* Color de fondo verde pastel más claro */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+/* Estilo para la tabla */
+.tablaAlumnos {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #d9ead3; /* Color de fondo verde pastel */
+    border: 2px solid #afd5aa; /* Borde verde pastel */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px; /* Espacio superior para separar la tabla del título */
+}
+
+/* Estilo para las celdas de la cabecera */
+.tablaAlumnos thead {
+    font-weight: bold;
+    border: 2px solid #afd5aa; /* Borde verde pastel */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilo para las celdas del cuerpo de la tabla */
+.tablaAlumnos td {
+    border: 2px solid #afd5aa; /* Borde verde pastel */
+    padding: 10px;
+    text-align: center;
+    background-color: #f5f5e1; /* Color de fondo crema */
+}
+
+/* Estilo para las filas pares para hacer más legible la tabla */
+.tablaAlumnos tr:nth-child(even) td {
+    background-color: #fff; 
+}
